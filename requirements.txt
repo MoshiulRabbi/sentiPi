@@ -7,3 +7,4 @@ numpy
 sklearn
 django-cors-headers==3.10.1
 djangorestframework==3.13.1
+whitenoise==6.3.0
