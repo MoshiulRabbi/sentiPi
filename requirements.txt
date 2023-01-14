@@ -4,7 +4,7 @@ pytz==2020.4
 sqlparse==0.4.1
 requests==2.25.1
 numpy
-sklearn
+scikit-learn
 django-cors-headers==3.10.1
 djangorestframework==3.13.1
 whitenoise==6.3.0
