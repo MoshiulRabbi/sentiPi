@@ -9,12 +9,8 @@ import pickle
 
 @api_view(['GET'])
 def overview(request):
-    data = "Url is /predict",{
-        "comments":"একটা প্রিমিয়াম ফিল আসে।",
-        "Predict": "Positive"
-    },{
-        "comments" : "কিভাবে ব্যবহার করে সেটাই বুঝতে পারলাম না",
-        "Predict": "Negative"
+    data = "Goto  '/predict' and post this following json",{
+        "comments":"একটা প্রিমিয়াম ফিল আসে।"
     }
     return Response(data)
 
